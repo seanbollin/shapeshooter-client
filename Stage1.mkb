@@ -1,0 +1,34 @@
+#!/usr/bin/env mkb
+ 
+subprojects
+{
+    iw2d
+	iw2dscenegraph
+	iw2dscenegraphcore
+}
+ 
+files
+{
+    main.cpp
+    input.h
+    input.cpp
+    Program.h
+    Program.cpp
+    Shader.h
+    Shader.cpp
+    fragment-shader.txt
+    vertex-shader.txt
+}
+
+assets
+{
+	(data)
+	fragment-shader.txt
+	vertex-shader.txt
+	textures
+}
+
+options
+{
+    enable-exceptions=1
+}
